@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/system_file.xsd">
+    <system>
+		<section id="smsfree">
+				<group id="smsgatways">
+					<field id="msg91senderid" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+						<label>Sender ID</label>
+						<depends><field id="gateway">msg91</field></depends>
+						<validate>required-entry</validate>
+					</field>
+					<field id="msg91authkey" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+						<label>Authentication Key</label>
+						<depends><field id="gateway">msg91</field></depends>
+						<validate>required-entry</validate>
+					</field>
+					<field id="msg91apiurl" type="text" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+						<label>API URL</label>
+						<comment><![CDATA[https://control.msg91.com/api/sendhttp.php]]></comment>
+						<depends><field id="gateway">msg91</field></depends>
+						<validate>required-entry validate-url</validate>
+					</field>
+				</group>
+		</section>
+    </system>
+</config>

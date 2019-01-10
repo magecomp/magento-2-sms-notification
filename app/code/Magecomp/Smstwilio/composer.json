@@ -1,0 +1,24 @@
+{
+  "name": "magecomp/module-smstwilio",
+  "description": "Magecomp Smstwilio Extension",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0",
+    "twilio/sdk": "^5.13"
+  },
+  "require-dev": {
+    "symfony/config": "~2.2|~4.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "Proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Magecomp\\Smstwilio\\": ""
+    }
+  }
+}

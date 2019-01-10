@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <smsfree>
+        	<smsgatways>
+        		<bulksmsapiurl>https://bulksms.vsms.net/eapi/submission/send_sms/2/2.0</bulksmsapiurl>
+        	</smsgatways>
+        </smsfree>
+    </default>
+</config>

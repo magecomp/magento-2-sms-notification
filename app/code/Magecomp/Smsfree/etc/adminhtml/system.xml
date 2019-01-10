@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/system_file.xsd">
+    <system>
+        <tab id="magecomp" translate="label" sortOrder="100">
+        	<label><![CDATA[<img src="https://www.magecomp.com/media/images/magecomp--extension.png" alt="MAGECOMP" height="25" style="vertical-align:middle;"/>]]></label>
+		</tab>
+        <section id="smsfree" showInDefault="1" sortOrder="1" showInWebsite="1" showInStore="1">
+			 <tab>magecomp</tab>
+             <label>SMS Notification</label>
+          	 <resource>Magecomp_Smsfree::smsfree</resource>
+			 <group id="moduleoption" showInDefault="1" sortOrder="10">
+					<label>Configuration</label>
+					<field id="enable" type="select" showInDefault="1" sortOrder="0" showInWebsite="1" showInStore="1">
+						<label>SMS Notification</label>
+						<source_model>Magento\Config\Model\Config\Source\Enabledisable</source_model>
+					 </field>
+			 </group>
+			 <group id="smsgatways" showInDefault="1" sortOrder="20">
+				<label>SMS Gateway Configuration</label>
+				<field id="gateway" translate="label tooltip" type="select" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="0">
+					<label>SMS Gateway</label>
+					<source_model>Magecomp\Smsfree\Model\Config\Gateways</source_model>
+					<config_path>smsfree/smsgatways/gateway</config_path>
+				</field>
+			 </group>
+			 <group id="orderplace" showInDefault="1" sortOrder="30">
+				 <label>Order Placement Notification Settings</label>
+				 <field id="enable" type="select" sortOrder="31" showInDefault="1" showInWebsite="1" showInStore="1">
+					 <label>Enable</label>
+					 <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+				 </field>
+				 <field id="template" type="textarea" sortOrder="32" showInDefault="1" showInWebsite="1" showInStore="1">
+					 <label>Order Placement Notification Text</label>
+					 <depends><field id="enable">1</field></depends>
+				 </field>
+			 </group>
+			<group id="shipment" showInDefault="1" sortOrder="40">
+					<label>Shipment Notification Settings</label>
+					<field id="enable" type="select" sortOrder="41" showInDefault="1" showInWebsite="1" showInStore="1">
+						<label>Enable</label>
+						<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+				   </field>
+				   <field id="template" type="textarea" sortOrder="42" showInDefault="1" showInWebsite="1" showInStore="1">
+						<label>Shipment Notification Text</label>
+					   	<depends><field id="enable">1</field></depends>
+				   </field>
+			</group>
+		 </section>
+    </system>
+</config>
