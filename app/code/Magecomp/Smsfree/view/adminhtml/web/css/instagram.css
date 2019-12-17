@@ -1,0 +1,28 @@
+/* CSS Document */
+
+#imagediv {
+    left: 50%;
+    position: fixed;
+    top: 50%;
+    display: none;
+}
+.insta-tag {
+    height: 20px;
+    background-color: #eb5202;
+    color: #fff;
+    border-radius: 3px 3px 0px 0px;
+    text-transform: capitalize;
+    margin-bottom: 0.8px;
+}
+.insta-content-header {
+    text-align: center;
+}
+.item img {
+    border-radius: 5px;
+}
+.approve-link {
+    color: #38B048;
+}
+.delete-link {
+    color: #EF2906;
+}
