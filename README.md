@@ -230,4 +230,46 @@ Website: [MageComp.com](https://magecomp.com/)
 
 ## Other Magento 2 Extensions by MageComp
 
+[Magento 2 Product Attachments](https://magecomp.com/magento-2-product-attachments.html)
+
+[Magento 2 Store Locator](https://magecomp.com/magento-2-store-locator.html)
+
+[Magento 2 WhatsApp Contact Pro](https://magecomp.com/magento-2-whatsapp-contact-pro.html)
+
+[Magento 2 Distance Based Shipping](https://magecomp.com/magento-2-distance-based-shipping.html)
+
+[Magento 2 Juspay Payment Gateway](https://magecomp.com/magento-2-juspay-payment-gateway.html)
+
+[Magento 2 Restrict Fake/Spam Registration](https://magecomp.com/magento-2-restrict-fake-spam-registration.html)
+
+[Magento 2 Custom Price](https://magecomp.com/magento-2-custom-price.html)
+
+[Magento 2 Cancel Order By Customer](https://magecomp.com/magento-2-cancel-order.html)
+
+[Magento 2 Advanced Extra Fee](https://magecomp.com/magento-2-advanced-extra-fee.html)
+
+[Magento 2 Checkout Success Page](https://magecomp.com/magento-2-checkout-success-page.html)
+
+
+## Magento Marketplace Extensions By MageComp
+
+[Magento 2 Wishlist REST API](https://marketplace.magento.com/magecomp-magento-2-wishlist-rest-api.html)
+
+[Magento 2 Customer Avatar](https://marketplace.magento.com/magecomp-magento-2-customer-avatar.html)
+
+[Magento 2 Inventory Sync SOAP API](https://marketplace.magento.com/magecomp-magento-2-inventory-sync-soap-api.html)
+
+[Magento 2 Quantity Increment Decrement](https://marketplace.magento.com/magecomp-magento-2-quantity-increment-decrement.html)
+
+[Magento 2 Maintenance Page](https://marketplace.magento.com/magecomp-magento-2-maintenance-page.html)
+
+[Magento 2 Shipping Calculator](https://marketplace.magento.com/magecomp-magento-2-shipping-calculator.html)
+
+[Magento 2 Customer Groups Shipping & Payment Restrictions](https://marketplace.magento.com/magecomp-magento-2-shipping-payment-restrictions-for-customer-groups.html)
+
+[Magento 2 Disable Right Click](https://marketplace.magento.com/magecomp-magento-2-disable-right-click.html)
+
+[Magento 2 Restrict Order](https://marketplace.magento.com/magecomp-magento-2-restrict-order.html)
+
+[Magento 2 First Data ICICI](https://marketplace.magento.com/magecomp-magento-2-first-data-icici.html)
 
